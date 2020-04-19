@@ -1,0 +1,33 @@
+body {
+    background-color: darkcyan;
+    margin: 0px;
+}
+
+.piano {
+    background-color: #d82c2c;
+    width: 100vw;
+    height: 50vh;
+    float: left;
+    padding-top: 10vh;
+}
+
+.whitekey {
+    background-color: white;
+    height: 30vh;
+    width: 5vw;
+    border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
+    float: left;
+    z-index: 0;
+}
+
+.blackkey {
+    background-color: #333333;
+    height: 17vh;
+    width: 2.5vw;
+    border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
+    float: left;
+    margin-left: -25px;
+    z-index: 3;
+}

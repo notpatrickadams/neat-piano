@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block main %}
+<p>Howdy there</p>
+<h1>Welcome to music</h1>
+
+<div class="piano">
+    {% for i in range(0, 1) %}
+    <div id="C" class="key whitekey"></div>
+    <div id="D" class="key whitekey">
+        <div id="C_S" class="key blackkey"></div>
+    </div>
+    <div id="E" class="key whitekey">
+        <div id="D_S" class="key blackkey"></div>
+    </div>
+    <div id="F" class="key whitekey"></div>
+    <div id="G" class="key whitekey">
+        <div id="F_S" class="key blackkey"></div>
+    </div>
+    <div id="A" class="key whitekey">
+        <div id="G_S" class="key blackkey"></div>
+    </div>
+    <div id="B" class="key whitekey">
+        <div id="A_S" class="key blackkey"></div>
+    </div>
+    {% endfor %}
+</div>
+
+
+{% endblock %}
